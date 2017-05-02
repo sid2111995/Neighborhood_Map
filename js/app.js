@@ -580,12 +580,6 @@ function highlightMarker(data) {
 }
 
 
-googleapiError = () => {
-    ViewModel.showError(true);
-    ViewModel.error('Sorry! Maps not able to load');
-
-};
-
 function Bounce(marker) {
     marker.setAnimation(google.maps.Animation.BOUNCE);
     setTimeout(function() {
@@ -596,7 +590,6 @@ function Bounce(marker) {
 var ViewModel = {
     error: ko.observable(''),
     showlist: ko.observableArray([]),
-    showError: ko.observable(false),
     showMyList: ko.observable(true),
     query: ko.observable(''),
     //live
