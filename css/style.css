@@ -8,6 +8,7 @@ body {
   overflow:hidden;
 }
 .container {
+  background: black;
   height: 100%;
   position: relative;
   width: 100%;
@@ -35,9 +36,8 @@ h1 {
   right: 0px;
 }
 .options-box {
-  background: #fff;
-  border: 1px solid #999;
-  border-radius: 3px;
+  background: black;
+  color: white;
   height: 100%;
   padding: 10px 10px 30px 10px;
   text-align: left;
@@ -54,14 +54,15 @@ h1 {
 #zoom-to-area {
   width: 24%;
 }
-.list-group-item:hover {
-      background-color: #02B3E4;
+.list-group-item {
+      background-color: black;
 }
-#weather {
-  border: 1px solid black;
-  border-radius: 4px;
+.list-group-item:hover {
+      background-color: white;
+      color:black;
 }
 #List {
+  background-color: black;
   height: 250px;
   overflow-y: scroll;
 }
@@ -75,7 +76,7 @@ input {
   font-size: 25px;
   font-weight: bold;
   text-align: center;
-  font-family: 'Aldrich', sans-serif;
+  
 }
 #restaurants {
   font-weight: bold;
