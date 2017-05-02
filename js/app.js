@@ -478,7 +478,7 @@ function populateInfoWindow(marker, infowindow) {
             infowindow.marker = null;
             marker.setAnimation(null);
         });
-        fetchFourSquare(marker);
+        FourSquare(marker);
         if (infowindow) {
             infowindow.close();
         }
@@ -489,7 +489,7 @@ function populateInfoWindow(marker, infowindow) {
 }
 
 
-function fetchFourSquare(marker) {
+function FourSquare(marker) {
     var data;
     content = "";
     $.ajax({
