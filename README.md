@@ -18,5 +18,5 @@
 
 # References:
   + Full stack development course from udacity.
-  + https://github.com/jaskanwal96/neighborhood-map for using of FourSquare API and understanding Error handling.
+  + https://github.com/jaskanwal96/neighborhood-map for understanding of FourSquare API and Error handling.
   
