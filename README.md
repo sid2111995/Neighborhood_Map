@@ -18,5 +18,7 @@
 
 # References:
   + Full stack development course from udacity.
+  + https://developer.foursquare.com/docs/venues/search
+  + Map style: https://snazzymaps.com/style/72543/assassins-creed-iv
   + https://github.com/jaskanwal96/neighborhood-map for understanding of FourSquare API and Error handling.
   
