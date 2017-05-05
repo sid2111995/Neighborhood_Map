@@ -15,3 +15,8 @@
 # Instructions to run the project
 + Download or clone this repository
 + Run index.html on your favourite browser
+
+# References:
+  + Full stack development course from udacity.
+  + https://github.com/jaskanwal96/neighborhood-map for using of FourSquare API and understanding Error handling.
+  
